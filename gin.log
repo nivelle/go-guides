@@ -1,0 +1,5 @@
+[GIN-debug] GET    /ping                     --> main.main.func2 (3 handlers)
+[GIN-debug] Listening and serving HTTP on :9000
+::1 - [Tue, 27 Oct 2020 13:10:39 CST] "GET /ping HTTP/1.1 200 22.087µs "PostmanRuntime/7.26.5" "
+::1 - [Tue, 27 Oct 2020 13:10:47 CST] "GET /ping HTTP/1.1 200 57.074µs "PostmanRuntime/7.26.5" "
+::1 - [Tue, 27 Oct 2020 13:10:53 CST] "GET /ping HTTP/1.1 200 5.249µs "PostmanRuntime/7.26.5" "

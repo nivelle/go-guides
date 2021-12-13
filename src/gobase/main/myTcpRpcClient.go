@@ -1,9 +1,9 @@
 package main
 
 import (
-	"net/rpc"
 	"fmt"
-	"gobase/myrpc"
+	"go-guides/src/gobase/myrpc"
+	"net/rpc"
 )
 
 func main()  {

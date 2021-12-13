@@ -2,11 +2,13 @@ package main
 
 import (
 	"fmt"
+	OB "go-guides/src/gobase/object"
 )
-import OB "gobase/object" //别名 //包名是从GOPATH/src/ 后开始计算的，使用/ ;绝对路径导入
-import (
-	. "gobase/object/extends"//这种格式相当于把 mymethod 包直接合并到当前程序中，在使用 mymethod 包内的方法是可以不用加前缀 mymethod.，直接引用
-)
+//别名 //包名是从GOPATH/src/ 后开始计算的，使用/ ;绝对路径导入
+//import OB "go-guides/src/gobase/object"
+//import (
+//	. "go-guides/src/gobase/myobject/"//这种格式相当于把 mymethod 包直接合并到当前程序中，在使用 mymethod 包内的方法是可以不用加前缀 mymethod.，直接引用
+//)
 
 func main() {
 	fmt.Println("hello my first go ")
@@ -25,8 +27,5 @@ func main() {
 	fmt.Println("method========")
 
 	fmt.Println("extends========")
-	var stu Student
-	stu.Person = Person{1, "fuck"}
-	stu.Score = 10
-	stu.Print()
+
 }

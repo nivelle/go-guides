@@ -43,7 +43,7 @@ func showArray() {
 	var arr6 = [...]int{10: -1}
 	fmt.Println("数组6:", arr6)
 
-	//
+	//二维数组
 	fns := [](func(x int) int){
 		func(x int) int { return x + 1 },
 		func(x int) int { return x + 2 },

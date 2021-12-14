@@ -14,7 +14,10 @@ func main() {
 			for {
 				atomic.AddUint64(&ops, 1)
 				//untime.Gosched()用于让出CPU时间片
+				fmt.Print("before ...")
 				runtime.Gosched()
+				fmt.Print("after ...")
+
 			}
 		}()
 	}
